@@ -1,0 +1,62 @@
+div > h1{
+	color: black;
+	font-family: georgia;
+	text-align: center;
+}
+.heading
+{
+	height: 100px;
+	margin-top: 30px;
+	width: 100%;
+}
+#box
+{
+	height: 150px;
+	border: 2px solid black;
+	float: left;
+	margin-left: 15px;	
+	overflow: hidden;
+}
+#dish
+{
+	border-left: 2px solid black;
+	width: 70px;
+	border-bottom: 2px solid black;
+	text-align: center;
+	float: right;
+}
+p
+{
+	position: relative;
+}
+@media screen and (min-width: 1036px) {
+  #box
+  {
+  	width: 30%;
+  }
+  }
+
+@media  screen and (min-width: 769px)  and (max-width: 1035px){
+	.b1{
+		clear: both;
+		width: 45%;
+		float: right;
+
+	}
+	.b2{
+		width: 45%;
+		float: right;
+	}
+	.b3{
+		width: 92%;
+		margin-top: 10px;
+		clear: both;
+	}
+}
+@media screen and (max-width: 768px){
+	#box
+	{
+		width: 90%;
+		margin-top: 20px;
+	}
+}
